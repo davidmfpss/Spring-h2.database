@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.example.springrestfulpractice.SpringRestfulPracticeApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.923 s <<< FAILURE! - in com.example.springrestfulpractice.SpringRestfulPracticeApplicationTests
+contextLoads  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.UncategorizedScriptException: Failed to execute database script from resource [URL [file:/D:/spring-restful-practice/target/classes/data.sql]]; nested exception is java.lang.IllegalArgumentException: 'script' must not be null or empty
+Caused by: org.springframework.jdbc.datasource.init.UncategorizedScriptException: Failed to execute database script from resource [URL [file:/D:/spring-restful-practice/target/classes/data.sql]]; nested exception is java.lang.IllegalArgumentException: 'script' must not be null or empty
+Caused by: java.lang.IllegalArgumentException: 'script' must not be null or empty
+

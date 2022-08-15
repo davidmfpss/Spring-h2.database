@@ -1,0 +1,15 @@
+INSERT INTO orders(seq,total_Price,waiter) VALUES(1,200,'DAVID');
+INSERT INTO orders(seq,total_Price,waiter) VALUES(2,200,'DAVID');
+INSERT INTO orders(seq,total_Price,waiter) VALUES(3,300,'DAVID');
+INSERT INTO orders(seq,total_Price,waiter) VALUES(4,1000,'DAVID');
+INSERT INTO meals(id,name,price,description) VALUES(1,'jim',100,'david is good');
+INSERT INTO meals(id,name,price,description) VALUES(2,'tom',100,'david is no good');
+INSERT INTO meals(id,name,price,description) VALUES(3,'jim',300,'david is good');
+INSERT INTO meals(id,name,price,description) VALUES(4,'jim',700,'david is good');
+INSERT INTO meals(id,name,price,description) VALUES(5,'jim',200,'david is good');
+INSERT INTO order_meal(order_id,meal_id) VALUES(1,1);
+INSERT INTO order_meal(order_id,meal_id) VALUES(1,2);
+INSERT INTO order_meal(order_id,meal_id) VALUES(2,5);
+INSERT INTO order_meal(order_id,meal_id) VALUES(3,3);
+INSERT INTO order_meal(order_id,meal_id) VALUES(4,4);
+INSERT INTO order_meal(order_id,meal_id) VALUES(4,3);
